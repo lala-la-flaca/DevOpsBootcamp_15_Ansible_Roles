@@ -1,0 +1,5 @@
+- name: Creating new linux user
+  # Adming group in AWS is called adm.
+  user: 
+    name: "{{user_name}}"
+    groups: "{{user_groups}}"
