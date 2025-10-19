@@ -4,22 +4,19 @@ This exercise is part of Module 15 from the TWN DevOps Bootcamp. In Module 15, w
 
 ---
 <a id="demo7"></a>
-# 📦Demo 8 – Ansible Roles
+# 📦Demo 8 – Structure Playbooks with Ansible Roles
 # 📌 Objective
-Integrate Ansible execution into a Jenkins pipeline to automate the configuration of multiple EC2.
-
-Files available in branch: feature/ansible 
-[Ansible_Demo7_Files](https://github.com/lala-la-flaca/DevOpsBootcamp_15_Ansible_Jenkins_AWS/tree/feature/ansible)
+Refactor large Ansible playbooks into smaller, reusable roles to improve maintainability.
 
 # 🚀 Technologies Used
 * Ansible: Configuration management tool for automation.
 * AWS: Cloud provider.
 * Linux: OS.
-* DigitalOcean: Cloud provider
 
 # 🎯 Features
-  ✅ Jenkins triggers remote Ansible playbooks.<br>
-  🧩 Configures multiple servers from a single pipeline.<br>
+  ✅ Organizes tasks into roles for clarity and reuse.<br>
+  📁 Encourages modular playbook design.<br>
+  ⚙️ Simplifies complex server setups<br>
   
 
 # Prerequisites
@@ -28,18 +25,12 @@ Files available in branch: feature/ansible
   * python >=3.6
   * boto3 >= 1.26.0
   * botocore >= 1.29.0
-* Python modules require these dependencies to execute the K8 module:
-  * python >= 3.6
-  * kubernetes >= 12.0.0
-  * PyYAML >= 3.11
-  * jsonpatch
-* DigitalOcean account.
 * Demo from Dynamic Inventory
-* Jenkins server from module 8.
+
   
 
 # 🏗 Project Architecture
-<img src="https://github.com/lala-la-flaca/DevOpsBootcamp_15_Ansible_Jenkins_AWS/blob/main/Img/Demo15-Jenkins.drawio.png" width=800 />
+<img src=""/>
 
 
 
